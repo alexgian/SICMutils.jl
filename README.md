@@ -3,14 +3,14 @@ SICMutils.jl
 SICMutils for julia
 ====================
 
-This is based on a clone of Mason Protter's initial nice attempt at scmutils for Julia.  
-scmutils is Gerald Jay Sussman's Scheme language utility supporting his own research but - more
+This is based on a clone of Mason Protter's initial nice attempt at ***scmutils*** for Julia.  
+***scmutils*** is Gerald Jay Sussman's Scheme language utility supporting his own research but - more
 relevantly - it is also the computer system behind two computer-based educational texts, 
-Structure and Interpretation of Classical Mechanics and Functional Differential Geometry.   
+*Structure and Interpretation of Classical Mechanics* and *Functional Differential Geometry*.   
 
 Protter states he was inspired to create this after watching Colin Smith's Physics in Clojure
 video of 2017.  Colin was one of the first to attempt a port of the system, liberating it from
-the effective, but not too portable MIT-Scheme used by GJS.  Initially, Protter called it Symolics.jl, 
+the effective, but not too portable MIT-Scheme used by GJS.  Initially, Protter called it Symbolics.jl, 
 which is  not a particularly good name,  especially as "Symbolics" is now the name of the major
 Julia library for symbolic processing, so I have renamed it to SICMutils in line with Colin's 
 earlier work.
@@ -18,7 +18,7 @@ earlier work.
 Incidentally, Colin's work has now evolved into the Clojure/Clojurescript open-source CAS called 
 "Emmy", crafted by Sam Ritchie and if you want to work with either of the two above-mentioned 
 books, or with a good *functional* Computer Algebra library, then I recommend it highly!
-THAT IS THE SYSTEM TO USE.  
+IF YOU WANT TO TRY IT OUT, THAT IS THE SYSTEM TO USE.  
 It also comes with a bevy of great interactive graphics utilities for mathematical 
 visualizations and demonstrations, accessible through a web browser and of course all the 
 benefits of running within the JVM ecosystem.  
@@ -81,9 +81,12 @@ However, the main point of this chapter, the deriving the Equations of Motion fr
 Lagrangian, equations works fine and can be seen when the main file (SICMutils.jl) is run in
 the REPL.
 
-Solving Lagrange Equations for L-harmonic symbolically...
-Given:    > Lagrange_Equations(L_harmonic(m, ω^2))(x)(t)
-Result is:  (D(D(x)))(t) * m + x(t) * ω ^ 2
+Solving Lagrange Equations for L-harmonic symbolically... 
+Given:    
+`> Lagrange_Equations(L_harmonic(m, ω^2))(x)(t)`
+
+Result is:  
+`(D(D(x)))(t) * m + x(t) * ω ^ 2`
 
 Some simple code examples given in the original can be seen here: <link>
 
@@ -91,9 +94,9 @@ While some issues with the program, including differentiation of symbolic expres
 vectors are briefly described here. <link>
 
 To ensure program reproducability use the julia libraries at the versions provided, 
-in particular Match @v1.0.1
+in particular `Match @v1.0.1`
 Do not upgrade the libraries in Project.toml unless you are acively developing the program.
-See Requirements <link>
+See REQUIREMENTS <link>
 
 ====
 end 
