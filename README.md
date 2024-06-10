@@ -47,10 +47,14 @@ However, the main point of this chapter, the deriving the Equations of Motion fr
 
 Solving Lagrange Equations for L-harmonic symbolically... 
 Given:    
-`> Lagrange_Equations(L_harmonic(m, ω^2))(x)(t)`
+```julia
+> Lagrange_Equations(L_harmonic(m, ω^2))(x)(t)
+```
 
 Result is:  
-`(D(D(x)))(t) * m + x(t) * ω ^ 2`
+```julia
+(D(D(x)))(t) * m + x(t) * ω ^ 2
+```
 
 Some simple code examples given in the original can be seen [here:](./README_old.md)
 
