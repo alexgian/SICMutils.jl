@@ -41,7 +41,7 @@ Running it - Mainfile is `SICMutils.jl`, run this as starting point in the REPL.
 
 =====
 
-I have not done much to the system so far - just repackaged it so that an elementary demonstration is feasible.  A file called numerics.jl brings in various numerical routines that are needed (integration, interpolation, minimization), mapped out to their equivalents in scmutils.  An attempt was made to port the early excercises in Chapter 1 of SICM, but this fell down fairly quickly as problems of function/up-down structure compatibility appeared.  Not too awful, but will need to be addressed.
+I have not done much to the system so far - just repackaged it so that an elementary demonstration is feasible.  A file called numerics.jl brings in various numerical routines that are needed (integration, interpolation, minimization), mapped out to their equivalents in scmutils.  An attempt was made to port the early exercises in Chapter 1 of SICM, but this fell down fairly quickly as problems of function/up-down structure compatibility appeared.  Not too awful, but will need to be addressed.
 
 However, the main point of this chapter, the deriving the Equations of Motion from the Lagrangian, equations works fine and can be seen when the main file (SICMutils.jl) is run in the REPL.
 
@@ -52,7 +52,7 @@ Given:
 Result is:  
 `(D(D(x)))(t) * m + x(t) * ω ^ 2`
 
-Some simple code examples given in the original can be seen here: <link>
+Some simple code examples given in the original can be seen [here:](./README_old.md)
 
 While some issues with the program, including differentiation of symbolic expression and up/down vectors are briefly described here. <link>
 
