@@ -4,7 +4,7 @@ SICMutils for julia
 ====================
 
 This is based on a clone of Mason Protter's initial nice attempt at ***scmutils*** for Julia.  
-***scmutils*** is Gerald Jay Sussman's Scheme language utility supporting his own research but - more relevantly - it is also the computer system behind two computer-based educational texts, *Structure and Interpretation of Classical Mechanics* and *Functional Differential Geometry*.   
+*scmutils* is Gerald Jay Sussman's Scheme language utility supporting his own research but - more relevantly - it is also the computer system behind two computer-based educational texts, *Structure and Interpretation of Classical Mechanics* and *Functional Differential Geometry*.   
 
 Protter states he was inspired to create this after watching [Colin Smith's Physics in Clojure video of 2017](https://www.youtube.com/watch?v=7PoajCqNKpg).  Colin was one of the first to attempt a port of the system, liberating it from the effective, but not too portable MIT-Scheme used by GJS.  Initially, Protter called it Symbolics.jl, which is  not a particularly good name,  especially as "Symbolics" is now the name of the major Julia library for symbolic processing, so I have renamed it to *SICMutils* in line with Colin's earlier work.
 
@@ -14,11 +14,11 @@ Incidentally, Colin's work has now evolved into the Clojure/Clojurescript open-s
 
 It also comes with a bevy of great interactive graphics utilities for mathematical visualizations and demonstrations, accessible through a web browser and of course all the benefits of running within the JVM ecosystem.  
 
-GJS's original, ***scmutils*** is also freely available for experimentation, but it is not as flexible, especially in its provision of graphics.  It is, however, a quick and accessible way into the system for those that may not want to commit to a JVM-based installation, since it runs natively on Linux-type systems, and something like *emacs* is more than adequate for a development environment.
+GJS's original, *scmutils* is also freely available for experimentation, but it is not as flexible, especially in its provision of graphics.  It is, however, a quick and accessible way into the system for those that may not want to commit to a JVM-based installation, since it runs natively on Linux-type systems, and something like *emacs* is more than adequate for a development environment.
 
-The point is that the ideas found in ***scmutils*** comprise a very particular approach to the teaching of the physical sciences, viz. the possibility of testing any model as executablecode, and so eliminating ambiguities, or "hand-waving" explanations.  As Sam points out, the code becomes the API into the science.
+The point is that the ideas found in *scmutils* comprise a very particular approach to the teaching of the physical sciences, viz. the possibility of testing any model as executablecode, and so eliminating ambiguities, or "hand-waving" explanations.  As Sam points out, the code becomes the API into the science.
 
-Based on GJS's ideas <link>, ***scmutils*** should be fairly easily ported into any reasonable functional language - it is a way of thinking and a way of working, and not something tied to any particular computer language.  Unfortunately, to date, this has not happened so much, not even in Scheme-derived languages which stake their claims in the educational world.
+Based on GJS's ideas <link>, *scmutils* should be fairly easily ported into any reasonable functional language - it is a way of thinking and a way of working, and not something tied to any particular computer language.  Unfortunately, to date, this has not happened so much, not even in Scheme-derived languages which stake their claims in the educational world.
 
 It is interesting to see that the system has potential to be ported to Julia.
 In particular julia's speed and panoply of tested numerical routines would serve it well.
