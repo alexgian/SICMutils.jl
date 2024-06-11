@@ -13,11 +13,11 @@ Incidentally, Colin's work has now evolved into the Clojure/Clojurescript open-s
 
 It also comes with a bevy of great interactive graphics utilities for mathematical visualizations and demonstrations, accessible through a web browser and of course all the benefits of running within the JVM ecosystem.  
 
-GJS's original, *scmutils* is also freely available for experimentation, but it is not as flexible, especially in its provision of graphics.  It is, however, a quick and accessible way into the system for those that may not want to commit to a JVM-based installation, since it runs natively on Linux-type systems, and something like *emacs* is more than adequate for a development environment.
+GJS' original, *scmutils* is also freely available for experimentation, but it is not as flexible, especially in its provision of graphics.  It is, however, a quick and accessible way into the system for those that may not want to commit to a JVM-based installation, since it runs natively on Linux-type systems, and something like *emacs* is more than adequate for a development environment.
 
 The point is that the ideas found in *scmutils* comprise a very particular approach to the teaching of the physical sciences, viz. the possibility of testing any model as executablecode, and so eliminating ambiguities, or "hand-waving" explanations.  As Sam points out, the code becomes the API into the science.
 
-Based on GJS's ideas <link>, *scmutils* should be fairly easily ported - or at least adapted - into any reasonable functional language: it is a way of thinking and a way of working, and not something tied to any particular computer language.  Unfortunately, to date, this has not happened so much, not even in Scheme-derived languages which stake their claims in the educational world.
+Based on GJS' ideas <link>, *scmutils* should be fairly easily ported - or at least adapted - into any reasonable functional language: it is a way of thinking and a way of working, and not something tied to any particular computer language.  Unfortunately, to date, this has not happened so much, not even in Scheme-derived languages which stake their claims in the educational world.
 
 It is interesting to see that the system has potential to be ported to Julia.
 In particular julia's speed and panoply of tested numerical routines would serve it well.
