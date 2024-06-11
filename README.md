@@ -33,15 +33,15 @@ So far, the system is based Mason Protter's own implementation of symbolical com
 
 Another interesting area is Sussman's use of so-called up and down structures to represent vectors, corresponding to their two forms, contravariant and covariant.  This code is highly recursive in its structure, something which - unlike in Lisp - is avoided in Julia, because of speed concerns.  At the moment there is a rudimentary working (i.e. buggy and incomplete) implementation, which needs quite some improvement, while a nice balance of elegance and speed is sought out.
 
-Automatic Differentiation is a key element of scmutils, and Julia has several options available here, many of them based on current research, which could be co-opted gainfully.
+Automatic Differentiation is a key element of *scmutils*, and Julia has several options available here, many of them based on current research, which could be co-opted gainfully.
 
 =====
 
-Running it - Mainfile is `SICMutils.jl`, run this as starting point in the REPL.
+Running it - Main file is `SICMutils.jl`, run this as starting point in the REPL.
 
 =====
 
-I have not done much to the system so far - just repackaged it so that an elementary demonstration is feasible.  A file called numerics.jl brings in various numerical routines that are needed (integration, interpolation, minimization), mapped out to their equivalents in scmutils.  An attempt was made to port the early exercises in Chapter 1 of SICM, but this fell down fairly quickly as problems of function/up-down structure compatibility appeared.  Not too awful, but will need to be addressed.
+I have not done much to the system so far - just repackaged it so that an elementary demonstration is feasible.  A file called numerics.jl has been added, which brings in various numerical routines that are needed (integration, interpolation, minimization), mapped out to their equivalents in *scmutils*.  An attempt was made to port the early exercises in Chapter 1 of SICM, but this fell down fairly quickly as problems of function/up-down structure compatibility appeared.  Not too awful, but will need to be addressed.
 
 However, the main point of this chapter, the deriving the Equations of Motion from the Lagrangian, equations works fine and can be seen when the main file (SICMutils.jl) is run in the REPL.
 
