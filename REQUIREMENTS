@@ -1,4 +1,4 @@
----  original ----------------------------------------
+---  original -------------------------------------------------------
 
 julia 1.0
 Lazy v0.13.1
@@ -10,7 +10,7 @@ SpecialFunctions v0.7.1
 
 ;; Match MUST be added @v1.0.1 - v2.0 fails, code needs update!
 
---- Currently working with: (8/5/24) -----------------
+--- Currently working with: (8/5/24) --------------------------------
 
 julia 1.10.3
 Lazy v0.15.1
@@ -19,7 +19,7 @@ DataStructures v0.18.20
 DiffRules v1.15.1
 SpecialFunctions v2.4.0
 
---- Added subsequently for numerics, working @ -------
+--- Added subsequently for numerics, working @ (11/6/24) ------------
 
 QuadGK V2.9.4
 DataInterpolations v5.1.0

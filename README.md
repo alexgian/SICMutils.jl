@@ -4,7 +4,7 @@ SICMutils for julia
 ====================
 
 This is based on a clone of Mason Protter's initial [nice attempt](https://github.com/MasonProtter/Symbolics.jl) at ***scmutils*** for Julia.  
-*scmutils* is Gerald Jay Sussman's Scheme language utility supporting his own research but - more relevantly - it is also the computer system behind two computer-based educational texts, [*Structure and Interpretation of Classical Mechanics*](https://mitpress.mit.edu/9780262028967/structure-and-interpretation-of-classical-mechanics/) and [*Functional Differential Geometry*](https://mitpress.mit.edu/9780262019347/functional-differential-geometry/).   
+*Scmutils* is Gerald Jay Sussman's Scheme language utility supporting his own research but - more relevantly - it is also the computer system behind two computer-based educational texts, [*Structure and Interpretation of Classical Mechanics*](https://mitpress.mit.edu/9780262028967/structure-and-interpretation-of-classical-mechanics/) and [*Functional Differential Geometry*](https://mitpress.mit.edu/9780262019347/functional-differential-geometry/).   
 
 Protter states he was inspired to create this after watching [Colin Smith's Physics in Clojure video of 2017](https://www.youtube.com/watch?v=7PoajCqNKpg).  Colin was one of the first to attempt a port of the system, liberating it from the effective, but not too portable MIT-Scheme used by GJS.  Initially, Protter called it Symbolics.jl, which is  not a particularly good name,  especially as "Symbolics" is now the name of the major Julia library for symbolic processing, so I have renamed it to *SICMutils* in line with Colin's earlier work.
 
@@ -43,7 +43,7 @@ Running it - Main file is `SICMutils.jl`, run this as starting point in the REPL
 
 I have not done much to the system so far - just repackaged it so that an elementary demonstration is feasible.  A file called numerics.jl has been added, which brings in various numerical routines that are needed (integration, interpolation, minimization), mapped out to their equivalents in *scmutils*.  An attempt was made to port the early exercises in Chapter 1 of SICM, but this fell down fairly quickly as problems of function/up-down structure compatibility appeared.  Not too awful, but will need to be addressed.
 
-However, the main point of this chapter, the deriving the Equations of Motion from the Lagrangian, equations works fine and can be seen when the main file (SICMutils.jl) is run in the REPL.
+However, the main point of this chapter, the derivation the Equations of Motion from the Lagrangian equations, works fine and can be seen when the main file (SICMutils.jl) is run in the REPL.
 
 Solving Lagrange Equations for L-harmonic symbolically... 
 Given:    
