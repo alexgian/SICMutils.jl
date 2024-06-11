@@ -1,7 +1,6 @@
-SICMutils.jl
+#### SICMutils.jl ####
 
-SICMutils for julia
-====================
+# SICMutils for julia #
 
 This is based on a clone of Mason Protter's initial [nice attempt](https://github.com/MasonProtter/Symbolics.jl) at ***scmutils*** for Julia.  
 *Scmutils* is Gerald Jay Sussman's Scheme language utility supporting his own research but - more relevantly - it is also the computer system behind two computer-based educational texts, [*Structure and Interpretation of Classical Mechanics*](https://mitpress.mit.edu/9780262028967/structure-and-interpretation-of-classical-mechanics/) and [*Functional Differential Geometry*](https://mitpress.mit.edu/9780262019347/functional-differential-geometry/).   
